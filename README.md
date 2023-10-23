@@ -14,4 +14,8 @@ Because by spending so much time in making spring-like environment, it will be m
 Below is what I try to implement :
 1. Instances Creation and Management (Spring Container in Spring Framework)
 2. Dependency Injection
-3. Singleton Pattern
+3. Singleton Pattern<br><br>
+-----------------------------------------------------------------------------------------------
+v1.0 - Oct. 23, 2023<br>
+You can use singleton instances if you put decorator(@) on class.<br>
+Always ensure that class instance returns same object.

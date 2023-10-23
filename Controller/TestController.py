@@ -1,6 +1,6 @@
-from Container import Container
+from Singleton import Singleton
 
-@Container
+@Singleton
 class TestController:
     def info(self):
         print("Test Controller")

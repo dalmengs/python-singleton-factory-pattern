@@ -1,6 +1,6 @@
-from Container import Container
+from Singleton import Singleton
 
-@Container
+@Singleton
 class TestService:
     def info(self):
         print("Test Service")
